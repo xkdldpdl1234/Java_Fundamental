@@ -13,7 +13,7 @@ public class BreakDemo {
 		 	
 		outter:for(int first =2; first<=9; first++) {
 			for(int second = 1; second<=9;second++) {
-				if(first==4 && second==8) break outter;
+				if(first==4 && second==8) break outter\;
 				System.out.printf("%d * %d = %d%n", first, second, first*second);
 			}
 			
