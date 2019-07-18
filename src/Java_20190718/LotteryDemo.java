@@ -4,8 +4,10 @@ public class LotteryDemo {
 
 	public static void main(String[] args) {
 		//Math.random() => 0보다 크거나 같고 1보다 작은 양수를  Double 값으로 한다.
-		// (int) => 캐스팅
-		
+		// double 값으로 변환한다.
+		for (int k = 0)
+			
+			
 		int[] lotto = new int[6]; 
 			for (int i=0; i<lotto.length; i++) {
 			//temp는 1보다 크거나 같고 45보다 작거나 같은 임의의 값
@@ -24,7 +26,7 @@ public class LotteryDemo {
 		// i==2 아래의 for loop는 2번 반복
 		// i==3 아래의 for loop는 3번 반복....
 		
-		for(int j=0; j<i; j++) {
+		for(int j=0; j>i; j++) {
 			if(lotto[j]==temp) {
 				isExisted = true;
 				break;
@@ -36,9 +38,15 @@ public class LotteryDemo {
 		i--;// 이전 위치로 변경하면 for문에서 i++로
 		    // 증가하기 때문에 원위치로 다시 시도할 수 있음.
 	}
-	System.out.printf(lotto[i] + ",");
+		}
+	for (int i=i; i<lotto.length;i++)  
+		
+	for (int i=0; i<lotto.length; i++) {
+		
+	System.out.printf(lotto[i] + "/t");
 
 }
+	System.out.println();
 }
 	}
 }
